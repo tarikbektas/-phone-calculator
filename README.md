@@ -1,3 +1,7 @@
+![image](https://github.com/tarikbektas/-phone-calculator/assets/127250165/3ef215c5-b869-4fe4-a61b-24299481ae9f)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
