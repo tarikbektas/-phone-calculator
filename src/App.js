@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+ 
+import { useDispatch,useSelector} from 'react-redux';
 import './App.css';
-
+import { test2,test } from './store/slice/Calc';
+import Top from './components/Top';
+import Bottom from './components/Bottom';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='main'>
+        <Top></Top>
+        <Bottom></Bottom>
+        <div className='white-line'>-</div>
+      </div>
+    
     </div>
   );
 }
